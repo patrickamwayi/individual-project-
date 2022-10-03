@@ -58,9 +58,10 @@ Document conclusions, recommendations, and next steps in the Final Report Notebo
 [Back to top]
 
 # Data Dictionary
-Target Attribute	Definition	Data Type
-# |Churn	|whether or not the customer left the bank	|int
----		
+|Target Attribute	|Definition	|Data Type|
+|------------------|-----------|----------|
+|Churn	|whether or not the customer left the bank	|int |
+		
 |Feature	|Definition|Data Type|
 |----------|----------|---------|
 | Customer_Id	|contains random values and has no effect on customer leaving the bank	| int |
