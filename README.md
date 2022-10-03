@@ -111,7 +111,7 @@ Reproduction Requirements:
 
 The bank customer churn data was obtained from Kaggle open-source dataset. It is stored in a csv file, named as "Bank Customer Churn Prediction.csv". From kaggle(https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset). Using this data to predict bank customer churn.
 
-1)Download the following files
+1) Download the following files
 
 Wrangle.py
 
