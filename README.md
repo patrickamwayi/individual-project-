@@ -1,3 +1,7 @@
+
+NOTE:      REFERENCE README ipynb file
+
+
 Bank Customer Churn Prediction
 [Project Description/Goals] [Initial Questions] [Planning] [Data Dictionary] [Reproduction Requirements]
 
