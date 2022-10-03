@@ -1,5 +1,5 @@
 
-NOTE:      REFERENCE README ipynb file above
+NOTE:      CAN ALSO REFERENCE README ipynb file above
 
 
 
