@@ -2,27 +2,29 @@
 NOTE:      REFERENCE README ipynb file above
 
 
-Bank Customer Churn Prediction
+
+# Bank Customer Churn Prediction
 [Project Description/Goals] [Initial Questions] [Planning] [Data Dictionary] [Reproduction Requirements]
 
 [Conclusion]
 
-Project Description/Goals:
+# Project Description/Goals:
+
 There is concern by banks why customers move from one bank to another. In this regard we need to understand which aspects of service influence customer's decisions to leave. And with this case study, bank management can concentrate their efforts to improve their services to retain customers.
 
-Business understanding
+# Business understanding
 The goal of this project is to identify key drivers of customer churn and build a neutral model that accurately determine whether they will leave.
 
-Data understanding
+# Data understanding
 The bank customer churn data was obtained from Kaggle open-source dataset. It is stored in a csv file, named as "Bank Customer Churn Prediction.csv". It has 12 columns called features, including 10000 row numbers. The fetures are customer id, credit score, country, gender, age, tenure, balance, number of products purchased through the bank, whether customer has a credit card, whether customer is an active member, estimated salary, and whether customer left the bank.
 
-Prepare data
+# Prepare data
 For categorical data features country and gender was handled by encoding. After checking the missing values in the dataset, it showed no missing values.
 
-EDA, modeling
+# EDA, modeling
 Divided whole dataset into training data and test data. The overall churn rate is 20%. I explored the correlation between every features and churn outcome. I built three machine learning models (Decision Tree, Random Forest and Logistic Regression) to predict the customer churn.
 
-Evaluate the results
+# Evaluate the results
 Evaluated the predictions with accuracy and confusion matrix.
 
 [Back to top]
@@ -33,7 +35,7 @@ How do these factors affect customer churn?
 Which is the best method to predict customer churn?
 [Back to top]
 
-Planning:
+# Planning:
 Create README.md with data dictionary, project and business goals, and come up with initial hypotheses.
 Acquire data from The bank customer churn data was obtained from Kaggle open-source dataset. It is stored in a csv file, named as "Bank Customer Churn Prediction.csv".
 Clean and prepare data for the first iteration through the pipeline, MVP preparation. Create a function to automate the process.
@@ -46,15 +48,15 @@ Choose the model that performs the best and evaluate that single model on the te
 Document conclusions, recommendations, and next steps in the Final Report Notebook.
 [Back to top]
 
-Data Dictionary
+# Data Dictionary
 Target Attribute	Definition	Data Type
-Churn	whether or not the customer left the bank	int
+# |Churn	|whether or not the customer left the bank	|int
 ---		
-Feature	Definition	Data Type
-Customer_Id	contains random values and has no effect on customer leaving the bank	int
-CreditScore	can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank	int
-Country	customer’s location can affect their decision to leave the bank	object
-Gender	it’s interesting to explore whether gender plays a role in a customer leaving the bank	object
+# Feature	Definition	Data Type
+| Customer_Id	|contains random values and has no effect on customer leaving the bank	| int |
+| CreditScore	|can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank	|int |
+| Country	|customer’s location can affect their decision to leave the bank	| object |
+| Gender	|it’s interesting to explore whether gender plays a role in a customer leaving the bank	| object |
 Age	this is certainly relevant, since older customers are less likely to leave their bank than younger ones	int
 Tenure	refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank	int
 Balance	also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances	float
