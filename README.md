@@ -1,5 +1,5 @@
 
-NOTE:      REFERENCE README ipynb file
+NOTE:      REFERENCE README ipynb file above
 
 
 Bank Customer Churn Prediction
