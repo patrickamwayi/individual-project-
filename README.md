@@ -52,8 +52,8 @@ Document conclusions, recommendations, and next steps in the Final Report Notebo
 Target Attribute	Definition	Data Type
 # |Churn	|whether or not the customer left the bank	|int
 ---		
-|Feature	Definition|Data Type|
---------------------|---------|
+|Feature	|Definition|Data Type|
+|----------|----------|---------|
 | Customer_Id	|contains random values and has no effect on customer leaving the bank	| int |
 | CreditScore	|can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank	|int |
 | Country	|customer’s location can affect their decision to leave the bank	| object |
