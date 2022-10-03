@@ -52,18 +52,19 @@ Document conclusions, recommendations, and next steps in the Final Report Notebo
 Target Attribute	Definition	Data Type
 # |Churn	|whether or not the customer left the bank	|int
 ---		
-# Feature	Definition	Data Type
+|Feature	Definition|Data Type|
+--------------------|---------|
 | Customer_Id	|contains random values and has no effect on customer leaving the bank	| int |
 | CreditScore	|can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank	|int |
 | Country	|customer’s location can affect their decision to leave the bank	| object |
 | Gender	|it’s interesting to explore whether gender plays a role in a customer leaving the bank	| object |
-Age	this is certainly relevant, since older customers are less likely to leave their bank than younger ones	int
-Tenure	refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank	int
-Balance	also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances	float
-Products Number	refers to the number of products that a customer has purchased through the bank	int
-Credit Card	denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank	int
-Active Member	active customers are less likely to leave the bank	int
-Estimated Salary	as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries	float
+|Age	|this is certainly relevant, since older customers are less likely to leave their bank than younger ones	|int|
+|Tenure	|refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank	|int|
+|Balance|	also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances	|float|
+|Products Number	|refers to the number of products that a customer has purchased through the bank	|int|
+|Credit Card|	denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank	|int|
+|Active Member|	active customers are less likely to leave the bank	|int|
+|Estimated Salary	|as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries	|float|
 [Back to top]
 
 Conclusion and Next Steps:
