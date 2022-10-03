@@ -37,14 +37,23 @@ Which is the best method to predict customer churn?
 
 # Planning:
 Create README.md with data dictionary, project and business goals, and come up with initial hypotheses.
+
 Acquire data from The bank customer churn data was obtained from Kaggle open-source dataset. It is stored in a csv file, named as "Bank Customer Churn Prediction.csv".
+
 Clean and prepare data for the first iteration through the pipeline, MVP preparation. Create a function to automate the process.
+
 Store the acquisition and preparation functions in a wrangle.py module function, and prepare data in Final Report Notebook by importing and using the function.
+
 Clearly define at least two hypotheses, set an alpha, run the statistical tests needed, reject or fail to reject the Null Hypothesis, and document findings and takeaways.
+
 Establish a baseline accuracy and document well.
+
 Train 3 different regression models.
+
 Evaluate models on train and validate datasets.
+
 Choose the model that performs the best and evaluate that single model on the test dataset.
+
 Document conclusions, recommendations, and next steps in the Final Report Notebook.
 [Back to top]
 
@@ -68,7 +77,9 @@ Target Attribute	Definition	Data Type
 [Back to top]
 
 Conclusion and Next Steps:
+
 Conclusion:
+
 Customer churn prediction is important to a long-term financial stability of banks. In this project, I successfully created a machine learning model - Decision Tree Classifier that was able to predict customer churn with an accuracy of 81% performing 2 percent better than the baseline's 79%.
 
 We can conclude that of all the features age, country, gender and balance had a impact on customer churn.
@@ -82,14 +93,22 @@ Gender: Female customers are easier to churn than male customers.
 Balance: Customers with high balances are more likely to churn.
 
 Recommendations:
+
 Age: We can see that younger customers are more likely to leave a bank because they are uneducated on building good credit and wealth. Banks should come up with loyalty and retention programs aimed at customers who can still be saved especially customers with poor credit scores given their age, or anyone with a credit score below 600.
+
 Gender: Since banks are losing more female customers, they need to allocate more resources into pursuing female-oriented promotions such as offering rewards cards and points. Our data evidently shows female are likely to leave because they are bigger spenders and will tend to spend a lot to keep their lifestyles.
+
 Next Steps:
+
 My next step would be to find out how much did our y variable change over the period of 2 years to acquire the right information to do another research.
 I would also like to do a research on Country - Germany and find out why it has the highest churn compared to the rest. Is it because of policies? Do banks have heavy competition?
+
 I would recommend that in the future we research on age and find out why middle age adult are leaving and find ways to retain them.
+
 Finally, I would love to check if my recommendations had an impact on our future data.
+
 Reproduction Requirements:
+
 The bank customer churn data was obtained from Kaggle open-source dataset. It is stored in a csv file, named as "Bank Customer Churn Prediction.csv". From kaggle(https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset). Using this data to predict bank customer churn.
 
 1)Download the following files
