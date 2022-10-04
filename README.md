@@ -30,9 +30,13 @@ Evaluated the predictions with accuracy and confusion matrix.
 [Back to top]
 
 Initial Questions:
+
 What are the key factors that affect customer churn?
+
 How do these factors affect customer churn?
+
 Which is the best method to predict customer churn?
+
 [Back to top]
 
 # Planning:
